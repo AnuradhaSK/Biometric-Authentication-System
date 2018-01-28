@@ -34,6 +34,8 @@ public class LandingForm extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 204, 153));
+        setResizable(false);
 
         jButton1.setText("SignUp");
         jButton1.addActionListener(new java.awt.event.ActionListener() {

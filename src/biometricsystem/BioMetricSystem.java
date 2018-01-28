@@ -20,9 +20,6 @@ public class BioMetricSystem {
         // TODO code application logic here
         LandingForm landingform=new LandingForm();
         landingform.setVisible(true);
-        DBConnection.getDBConnection();
-        
-        
-    }
-    
+        DBConnection.getDBConnection();        
+    }  
 }
